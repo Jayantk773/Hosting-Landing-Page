@@ -1,0 +1,860 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+body{
+    background-color: #eff7f4;
+}
+.logo{
+    width: 110px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 6%;
+}
+.nav-items{
+    margin-left: 30%;
+    flex: 0.5;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+.nav-item{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+    font-size: 13px;
+    width: 85px;
+    font-family: Montserrat, sans-serif;
+}
+.nav-item:hover{
+    cursor: pointer;
+    color: #4585c0;
+    font-size: 14px;
+    border-bottom: 2px solid #1B98F5;
+}
+
+.nav-item1{
+    align-items: center;
+    margin-left: 7%;
+    font-size: 13px;
+    width: 120px;
+    font-family: Montserrat, sans-serif;
+}
+.nav-item1:hover{
+    cursor: pointer;
+    color: #4585c0;
+    font-size: 14px;
+    border-bottom: 2px solid #1B98F5;
+}
+
+.button{
+    padding: 10px 25px;
+    border: #50cfcf 2px solid;
+    border-radius: 5px;
+    color: #4edbdb;
+    background-color: aliceblue;
+}
+.ULHS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.unlimited-hosting{
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    font-style: bolder;
+    margin-left: 6%;
+    margin-top: 8%;
+}
+.web{
+    margin-left: 6%;
+    margin-top: 3%;
+    font-size: small;
+    font-style: small;
+    font-weight: 200;
+    color: #0e0707a2;
+    font-family: Roboto, serif;
+}
+
+.button1{
+    margin-left: 6%;
+    margin-top: 3%;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #1B98F5;
+    border: none;   
+    border-radius: 10px;
+    font-family: Roboto, serif;
+    font-weight: 800;
+}
+
+.img{
+   width: 500px;
+   height: 450px;
+   position: absolute;  
+   right: 5%;
+}
+
+.Quality{
+    display: flex;  
+    font-size: 50px;
+    font-family: Roboto, serif;
+    font-weight: 800;
+    font-style: bold;
+}
+.Company{
+    margin-top: 3%;
+    font-size: small;
+    font-style: small;
+    font-weight: 200;
+    color: #0e0707a2;
+    font-family: Roboto, serif;
+}
+.button2{
+    margin-top: 3%;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #1B98F5;
+    border: none;   
+    border-radius: 5px;
+    font-family: Roboto, serif;
+    font-weight: 800;
+}
+
+.img2{
+   float: left;
+   margin-left: -10%;
+   width: 550px;
+   height: 320px;
+}
+.QC{
+    float: right;
+    padding-right: 5%;
+    margin-top: 15%;
+}
+
+
+.TS{
+    margin-top: 50%;
+}
+.technical-support{
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    font-style: bolder;
+    margin-left: 6%;
+}
+.CNC{
+    margin-top: 3%;
+    margin-left: 6%;
+    font-size: small;
+    font-style: small;
+    font-weight: 200;
+    color: #0e0707a2;
+    font-family: Roboto, serif;
+}
+.button3{
+    margin-left: 6%;
+    margin-top: 3%;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #1B98F5;
+    border: none;   
+    border-radius: 5px;
+    font-family: Roboto, serif;
+    font-weight: 800;
+}
+
+.Technical-support{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: -23%;
+    padding-right: 10%;
+}
+.TH{
+   margin-top: 20%;
+   display: flex;
+   flex-direction: row;
+   gap: 13%;
+}
+.thor-hosting{
+    font-family: Roboto, serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #03203C;
+    margin-left: 6%;
+}
+.resolved{
+    width: 500px;
+    font-family: Montserrat, sans-serif;
+} 
+
+.icons1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap:10%;
+    row-gap: 30%;
+    padding:5% 10%;
+}
+.icons1>div>img{
+    width: 20%;
+}
+.icons1>div>h2{
+    padding:5% 0%;
+    color: #03203C;
+    font-family: Roboto, serif;
+}
+.icons1>div>p{
+     margin-top: 10pt;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+}
+
+.Transparent{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-self: center;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 25px;
+    height: 55px;
+    z-index: 1;
+    margin-top: 12%;
+}
+
+.Flexible{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: #1B98F5;
+    margin-top: -6%;
+}
+
+.fa-circle-check{
+    color: #00D84A;
+    background-color: transparent;
+    padding-right: 5%;
+}
+
+.Beginners{
+    background-color: #fff;
+    width: 21%;
+    height: 77%;
+    margin-top: 7%;
+    margin-left: 18%;
+    border-radius: 10px;
+}
+
+.starter-pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 8%;
+    color: #03203C;
+    font-family: Roboto, sans-serif;
+    font-size: 12pt;
+}
+
+.starter-pack p{
+    padding-top: 6%;
+    font-family: Montserrat, serif;
+    font-size: 10pt;
+    color: #05315a;
+    font-weight: 600;
+}
+
+.Beginners-Offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-top: 15%;
+    font-family: Roboto, sans-serif;
+    color: #0e0d0d;
+}
+
+.Offers{
+    padding-top: 8%;
+}
+
+.Starter-Pricing{
+    padding-top: 20%;
+    padding-left: 16%;
+}
+
+.Pack-month{
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 20pt;
+    color: #758283;
+}
+
+.Starter-Pricing span{
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 20pt;
+    color: #03203C;
+}
+.Starter-Pricing h5{
+    padding-top: 8%;
+    padding-left: 15%;
+    font-family: Roboto, sans-serif;
+    font-size: 10pt;
+    color: #90a0a1;
+}
+.Starter-Pricing button{
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 12px 35px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: #1B98F5 1px solid;
+    color: #1B98F5;
+    font-family: Roboto, sans-serif;
+}
+
+.Popular{
+    margin-top: 10%;
+    background-color: #fff;
+    width: 21%;
+    height: 77%;
+    margin-top: 7%;
+    margin-left: 1.5%;
+    border-radius: 10px;
+}
+
+.popular-pack{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+.popular-pack h2{
+    font-family: Roboto, sans-serif;
+    font-size: 16pt;
+}
+.popular-pack p{
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-size: 9pt;
+    padding-top: 7%;
+    padding-bottom: 13%;
+}
+.popular-offers{
+    padding-top: 5%;
+    padding-left: 15%;
+    font-family: Roboto, sans-serif;
+    color: #0e0d0d;
+}
+.popular-offers h5{
+    padding-top: 8%;
+}
+.Popular-Pricing{
+    padding-top: 20%;
+    padding-left: 16%;
+}
+.Popular-Pricing h2{
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 20pt;
+    color: #758283;
+}
+.Popular-Pricing h5{
+    padding-top: 8%;
+    padding-left: 15%;
+    font-family: Roboto, sans-serif;
+    font-size: 10pt;
+    color: #90a0a1;
+}
+.Popular-Pricing span{
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 20pt;
+    color: #03203C;
+}
+.Popular-Pricing button{
+    margin-top: 10%;
+    margin-left: 8%;
+    padding: 12px 35px;
+    background-color: #1b98f5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+
+.Business{
+    margin-top: 10%;
+    background-color: #fff;
+    width: 21%;
+    height: 77%;
+    margin-top: 7%;
+    margin-left: 1.5%;
+    border-radius: 10px;
+}
+.Business-pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 8%;
+    color: #03203C;
+    font-family: Roboto, sans-serif;
+    font-size: 12pt;
+}
+
+.Business-pack p{
+    padding-top: 6%;
+    font-family: Montserrat, serif;
+    font-size: 10pt;
+    color: #05315a;
+    font-weight: 600;
+}
+.Business-offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-top: 15%;
+    font-family: Roboto, sans-serif;
+    color: #0e0d0d;
+}
+.Business-offers h5{
+    padding-top: 8%;
+}
+.Business-Pricing{
+    padding-top: 20%;
+    padding-left: 16%;
+}
+.Business-Pricing h2{
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 20pt;
+    color: #758283;
+}
+.Business-Pricing span{
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 20pt;
+    color: #03203C;
+}
+.Business-Pricing h5{
+    padding-top: 8%;
+    padding-left: 15%;
+    font-family: Roboto, sans-serif;
+    font-size: 10pt;
+    color: #90a0a1;
+}
+.Business-Pricing button{
+    margin-top: 10%;
+    margin-left: 8%;
+    padding: 12px 35px;
+    background-color: transparent;
+    border: #1B98F5 1px solid;
+    border-radius: 5px;
+    color: #1B98F5;
+    font-family: Roboto, sans-serif;
+} 
+
+.Customer0{
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+.Customer0 h1{
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    color: #03203C;
+}
+.Customer0 p{
+    font-size: 12px;
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    text-align: center;
+}
+
+.AURThur{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10%;
+    column-gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.one{
+    background-color: #fff;
+    padding: 5% 5%;
+}
+.two{
+    background-color: #fff;
+    padding: 5% 5%;
+}
+.three{
+    background-color: #fff;
+    padding: 5% 5%;
+}
+.four{
+    background-color: #fff;
+    padding: 5% 5%;
+}
+
+.AURThur>p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #90a0a15e;
+    margin-top: 10%;
+}
+.aurthur>h5{
+    margin-top: -9%;
+    padding-left: 13%;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.aurthur>h6{
+    padding-left: 13%;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+}
+
+.Registration{
+    width: 100%;
+    height: 30vh;
+    background-color: #1b98f5;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20%;
+}
+.Registration h1{
+    color: #fff;
+    width: 370px;
+    padding-top: 12%;
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+}
+.Registration p{
+    color: #fff;
+    width: 340px;
+    padding-top: 2%;
+    font-family: Montserrat, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+.Registration button{
+    padding: 10px 25px;
+    background-color: transparent;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    margin-top: 60%;
+}
+
+.Footer{
+    padding-right: 22%;
+    padding-left: 6%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.1;
+    padding-bottom: 5%;
+}
+.logo1 img{
+    width: 80px;
+}
+.logo1 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5%;
+    width: 280px;
+    color: #272424;
+    font-family: Montserrat, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu h3{
+    font-family: Roboto, sans-serif;
+    color: #03203C;
+}
+.menu h3:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 15pt;
+}
+.menu h5{
+    color: #272424;
+    font-family: Montserrat, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+.menu h5:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 12px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.links h3{
+    font-family: Roboto, sans-serif;
+    color: #03203C;
+}
+.links h3:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 15pt;
+}
+.links h5{
+    color: #272424;
+    font-family: Montserrat, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+.links h5:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 12px;
+}
+.overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.overview h3{
+    font-family: Roboto, sans-serif;
+    color: #03203C;
+}
+.overview h3:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 15pt;
+}
+.overview h5{
+    color: #272424;
+    font-family: Montserrat, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+}
+.overview h5:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 12px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social h3{
+    font-family: Roboto, sans-serif;
+    color: #03203C;
+}
+.social h3:hover{
+    cursor: pointer;
+    color: #03203C;
+    font-size: 15px;
+}
+.social h5{
+    padding-top: 10%;
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.social h5 i:hover{
+    cursor: pointer;
+    font-size: 12pt;
+}
+button:hover{
+    cursor: pointer;
+    color: #aebac5;
+    font-size: 14px;
+    background-color: #2827CC;
+}
+
+@media only screen and (max-width:600px){
+    .nav-items{
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .ULHS{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ULHS>img{
+        width: 200px;
+        height: 200px;
+    }
+    .ULHS h1{
+        margin-top: 115%;
+        font-size: 45px;
+        width: 100%;
+    }
+    
+    .QC{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .QC>h2{
+        padding-top: 5%;
+        font-size: 35px;
+    }
+    .QC>p{
+        padding-top: 3%;
+    }
+    .button2{
+        width: 25%;
+        margin-top: 5%;
+    }
+
+    .TS{
+        display:flex;
+        flex-direction: column-reverse;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .technical-support{
+        font-size: 35px;
+    }
+    .Technical-support{
+        margin-top: 5%;
+    }
+    .TH{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resolved{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .icons1{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap:10%;
+        justify-tracks: center;
+    }
+    .Transparent{
+        margin-top:25%;
+        background-color: #1B98F5;
+        width: 100%;
+        padding-top: 3%;
+    }
+    .Flexible{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-bottom: 5%;
+    }
+    .Beginners{
+        width: 45%;
+        margin-left: 5px;
+        padding-bottom: 3%;
+    }
+    .Popular{
+        width: 45%;
+        padding-bottom: 3%;
+    }
+    .Business{
+        width: 45%;
+        padding-bottom: 3%;
+    }
+    .Customer0{
+        width: auto;
+    }
+    .AURThur{
+        display: grid;
+        grid-template-columns: auto;
+        justify-tracks: center;        
+    }
+    .Registration{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .Registration h1{
+        margin-top: 5%;
+    }
+    .Registration button{
+        margin-bottom: 10%;
+    }
+    .Footer{
+        margin: auto;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        padding-bottom: 5%;
+    }
+    .link{
+        padding-bottom: 15%;
+    }
+    .overview{
+        padding-bottom: 5%;
+    }
+
+}
